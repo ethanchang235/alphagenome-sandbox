@@ -4,11 +4,9 @@ An educational tool for exploring how DNA variants affect gene regulation using 
 
 **Educational use only** - Not for medical diagnosis. See [Terms of Use](TERMS_OF_USE.md) for details.
 
-## Screenshots
-
 <div align="center">
   <img src="./assets/screenshots/walkthrough.png" alt="Interactive Walkthrough" width="800"/>
-  <p><em>Interactive walkthrough explaining how to use the tool</em></p>
+  <p><em>Variety of examples that can be used in interactive walkthrough</em></p>
   
   <img src="./assets/screenshots/variant-config.png" alt="Variant Configuration" width="800"/>
   <p><em>Configure variants and select tissues for analysis</em></p>
