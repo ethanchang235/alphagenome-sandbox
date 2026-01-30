@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+venv/
+
+# Build output
+dist/
+
+# Environment & secrets
+.env
+
+# Logs & databases
+*.log
+predictions_cache.db
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Tools
+.ruff_cache/
