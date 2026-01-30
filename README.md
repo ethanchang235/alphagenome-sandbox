@@ -1,8 +1,21 @@
-# GeneReg Explorer
+# AlphaGenome Sandbox
 
 An educational tool for exploring how DNA variants affect gene regulation using Google DeepMind's AlphaGenome model.
 
 **Educational use only** - Not for medical diagnosis. See [Terms of Use](TERMS_OF_USE.md) for details.
+
+## Screenshots
+
+<div align="center">
+  <img src="./assets/screenshots/walkthrough.png" alt="Interactive Walkthrough" width="800"/>
+  <p><em>Interactive walkthrough explaining how to use the tool</em></p>
+  
+  <img src="./assets/screenshots/variant-config.png" alt="Variant Configuration" width="800"/>
+  <p><em>Configure variants and select tissues for analysis</em></p>
+  
+  <img src="./assets/screenshots/prediction-results.png" alt="Prediction Results" width="800"/>
+  <p><em>Visualize AlphaGenome predictions for gene expression changes</em></p>
+</div>
 
 ## Overview
 

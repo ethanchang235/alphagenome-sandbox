@@ -9,7 +9,7 @@ const Walkthrough = ({ onClose }: WalkthroughProps) => {
 
   const steps = [
     {
-      title: "Welcome to GeneReg Explorer",
+      title: "Welcome to AlphaGenome Sandbox",
       content: "This educational tool helps you explore how DNA variants affect gene regulation using Google DeepMind's AlphaGenome model.",
       tip: "This tool is for educational use only - not for medical diagnosis."
     },

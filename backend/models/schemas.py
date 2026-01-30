@@ -1,4 +1,4 @@
-"""Pydantic models for GeneReg Explorer API."""
+"""Pydantic models for AlphaGenome Sandbox API."""
 
 from typing import List, Optional, Dict, Any
 from pydantic import BaseModel

@@ -4,7 +4,7 @@
 
 ## Purpose
 
-GeneReg Explorer is an educational and research tool for learning about genomic variants and their predicted effects on gene regulation using Google DeepMind's AlphaGenome API under non-commercial terms.
+AlphaGenome Sandbox is an educational and research tool for learning about genomic variants and their predicted effects on gene regulation using Google DeepMind's AlphaGenome API under non-commercial terms.
 
 ## Not For Medical Use
 
@@ -68,4 +68,4 @@ This tool does not collect, process, or store personal genetic information. It o
 
 ## Acceptance
 
-By using GeneReg Explorer, you acknowledge that you have read and agree to these terms.
+By using AlphaGenome Sandbox, you acknowledge that you have read and agree to these terms.

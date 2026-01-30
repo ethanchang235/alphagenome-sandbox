@@ -115,7 +115,7 @@ function App() {
       )}
 
       <header className="header">
-        <h1>GeneReg Explorer</h1>
+        <h1>AlphaGenome Sandbox</h1>
         <p>Educational Tool for Exploring AlphaGenome Predictions</p>
       </header>
 

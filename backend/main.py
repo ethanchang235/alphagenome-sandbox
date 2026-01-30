@@ -1,4 +1,4 @@
-"""GeneReg Explorer - Educational Genomic Variant Sandbox
+"""AlphaGenome Sandbox - Educational Genomic Variant Sandbox
 
 A web application for exploring AlphaGenome predictions in an educational context.
 This tool is for educational and research purposes only - not for medical diagnosis.
@@ -18,11 +18,11 @@ from routers import variants, examples, regions
 
 
 # API metadata
-API_TITLE = "GeneReg Explorer API"
+API_TITLE = "AlphaGenome Sandbox API"
 API_DESCRIPTION = """
 **Educational Genomic Variant Analysis Tool**
 
-GeneReg Explorer provides an interactive sandbox for learning about how DNA 
+AlphaGenome Sandbox provides an interactive sandbox for learning about how DNA 
 variants affect gene regulation. Using Google DeepMind's AlphaGenome model, 
 users can explore predicted effects of mutations on:
 
@@ -48,7 +48,7 @@ API_VERSION = "1.0.0"
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Application lifespan handler."""
-    print("Starting GeneReg Explorer...")
+    print("Starting AlphaGenome Sandbox...")
 
     api_key = os.getenv("ALPHAGENOME_API_KEY")
     if not api_key:
@@ -89,7 +89,7 @@ app.include_router(regions.router)
 async def root():
     """Root endpoint with basic info."""
     return {
-        "name": "GeneReg Explorer API",
+        "name": "AlphaGenome Sandbox API",
         "version": API_VERSION,
         "description": "Educational tool for exploring AlphaGenome predictions",
         "disclaimer": "For educational use only - not for medical diagnosis",
